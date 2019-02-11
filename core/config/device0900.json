@@ -1,0 +1,7 @@
+{	"type": "9", 
+	"subtype": "0",
+	"class": "none",
+	"name": "TP-Link Ampoules et prises",
+	"canal": "1",
+	"instructions" : "Bien suivre la procédure fournie par TP-LINK en acceptant la création d'un compte dans le nuage.<br/> Vérifier que votre mobile est connecté à votre box (et pas au wifi AP de l'ampoule ou de la prise). Vérifier que tout fonctionne avec l'application mobile du constructeur.<br/>A l'aide du routeur de votre box, attribuer une adresse IP fixe au controlleur, il peut être utile de récupérer l'adresse MAC de la lampe ou de la prise via l'appli mobile pour la renseigner dans le routeur. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur."
+}

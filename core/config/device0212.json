@@ -1,0 +1,23 @@
+{	"type": "2", 
+	"subtype": "12",
+	"class": "mylightRGBV6b1",
+	"name": "Strip RGB 1 bouton",
+	"canal": "1",
+	"monoSlider": "0",
+	"commands": [
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"ColorGet",
+		"Color",
+		"DiscoProgGet",
+		"DiscoSpeedGet",
+		"IntensityGet",
+		"fasterDisco",
+		"slowerDisco",
+		"upIntensity",
+		"downIntensity",
+		"upDisco",
+		"downDisco"
+	]
+}

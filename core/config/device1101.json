@@ -1,0 +1,51 @@
+{	"type": "11", 
+	"subtype": "1",
+	"class": "XiaomiPhilipsWhite",
+	"name": "Ampoule blanche",
+	"canal": "1",
+	"monoSlider": "1",
+	"mac" : "1",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"nightLight",
+		"upIntensityInt",
+		"downIntensityInt",
+		"upIntensity",
+		"downIntensity",
+      	"KelvinGet",
+		"Kelvin",
+		"warmKelvin",
+		"coolKelvin",
+		"midKelvin",
+		"DiscoProgGet",
+		"DiscoProg",
+		"Timer",
+		"TimerGet",
+		"OffDelay"
+	],
+    "nbDisco" : 3,
+	"disco": [
+		{
+			"logicalId": "Mode1",
+			"name": "Mode 1",
+			"id": "1"
+		},
+		{
+			"logicalId": "Mode2",
+			"name": "Mode 2",
+			"id": "2"
+		},
+		{
+			"logicalId": "Mode3",
+			"name": "Mode 3",
+			"id": "3"
+		}
+    ]
+}

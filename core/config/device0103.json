@@ -1,0 +1,83 @@
+{	"type": "1", 
+	"subtype": "3",
+	"class": "mylightRGBW",
+	"name": "Strip Leds RGBW",
+	"canal": "4",
+	"monoSlider": "1",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"nightLight",
+		"ColorGet",
+		"Color",
+		"onWhite",
+		"onColor",
+		"upIntensity",
+		"downIntensity",
+		"DiscoProgGet",
+		"DiscoProg",
+		"DiscoSpeedGet",
+		"DiscoSpeed",
+		"fasterDisco",
+		"slowerDisco",
+		"slowestDisco",
+		"fastestDisco",
+		"middleDisco",
+		"slowerDisco"
+	],
+	"nbDisco" : 9,
+	"disco": [
+		{
+			"logicalId": "rainbowSwirlDisco",
+			"name": "Disco arc-en-ciel",
+			"id": "1"
+		},
+		{
+			"logicalId": "whiteFadeDisco",
+			"name": "Disco fondu blanc",
+			"id": "2"
+		},
+		{
+			"logicalId": "fadeDisco",
+			"name": "Disco fondu",
+			"id": "3"
+		},
+		{
+			"logicalId": "rainbowJumpDisco",
+			"name": "Disco arc-en-ciel saut",
+			"id": "4"
+		},
+		{
+			"logicalId": "discoDisco",
+			"name": "disco Disco",
+			"id": "5"
+		},
+		{
+			"logicalId": "redTwingleDisco",
+			"name": "Disco rouge scintillant",
+			"id": "6"
+		},
+		{
+			"logicalId": "greenTwingleDisco",
+			"name": "Disco vert scintillant",
+			"id": "7"
+		},
+		{
+			"logicalId": "blueTwingleDisco",
+			"name": "Disco bleu scintillant",
+			"id": "8"
+		},
+		{
+			"logicalId": "allCombineDisco",
+			"name": "Disco tous modes",
+			"id": "9"
+		}		
+		
+	]	
+}

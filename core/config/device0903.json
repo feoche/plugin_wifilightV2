@@ -1,0 +1,24 @@
+{	"type": "9", 
+	"subtype": "3",
+	"class": "TpLinkLB120",
+	"name": "TP-Link LB120 Bulb",
+	"canal": "1",
+	"monoSlider": "0",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"upIntensity",
+		"downIntensity",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"KelvinGet",
+		"Kelvin",
+		"warmKelvin",
+		"coolKelvin",
+		"midKelvin"
+	]
+}

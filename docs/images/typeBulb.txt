@@ -1,0 +1,30 @@
+
+				Type	one slider	 Color Bright info  State return	White info	RGB Bright
+Yeelight		RGBW 		yes			Yes				Yes				W				Yes
+Mi.Light	   	RGBW WW		yes			-				No								Yes
+Mi.Light		W			No			-				No								Yes
+H801			RGBWW		No			-				No								No
+Lagute			RGBW		No			No				Yes				-				No
+Magic UFO		RGBW WW		No			No				Yes				W				No
+REVOGI			RGBW		No			No				Yes				WW				No
+TPLINK			RGBW		No			Yes				Yes				WW				Yes
+
+
+
+
+W Brightness -> w
+RGB Brightness -> Brightness or nothing
+RGB W     Brightness W
+RGB WW 		Brightness W1 W2 
+RGBW CCT	Brightness W CT
+TPLink : Brightness+RGB W
+LaguteLW12 : RGB (+ w simulated)
+Arilux RGB : RGB (+ w simulated)
+Arilux RGBW MAgic : RGB + W
+ARILUX RGBWW : RGB + W + W2
+Revogi :  RGB + W
+Wifi 370 : RGB
+wifi320 : W + W2
+Yeelight RGBW  mode 1(col) Bright-> white + RGB  /  mode 2 (White) W
+Yeelight Mijia W CCT   white + CT
+

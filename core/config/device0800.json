@@ -1,0 +1,105 @@
+{	"type": "8", 
+	"subtype": "0",
+	"class": "H801",
+	"name": "H801",
+	"canal": "1",
+	"mac" : "1",
+	"monoSlider": "0",
+	"instructions" : "Connecter le controlleur H801 à l'application mobile fournie par le constructeur en mode AP. Noter l'adresse MAC (xxxxxx) du nom du SSID : HCX_xxxxxx qui correspond au jeton de la configuration du périphérique.<br/>Configurer le controlleur pour qu'il se connecte au wifi de de votre routeur. Vérifier que tout fonctionne avec l'application mobile du constructeur.<br/>A l'aide du routeur attribuer une adresse IP fixe au controlleur. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur.",
+	"commands": [
+		"WhiteWarmGet",
+		"WhiteWarm",
+		"WhiteCoolGet",
+		"WhiteCool",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"IntensityGet",
+		"Intensity",
+		"DiscoProgGet",
+		"DiscoProg",
+		"DiscoSpeedGet",
+		"DiscoSpeed",
+		"upIntensity",
+		"downIntensity",
+		"upIntensityW1",
+		"downIntensityW1",
+		"upIntensityW2",
+		"downIntensityW2",
+		"ColorGet",
+		"Color"
+	],
+	"nbDisco" : 14,
+	"disco": [
+		{
+			"logicalId": "StaticState",
+			"name": "Statique",
+			"id": "1"
+		},
+		{
+			"logicalId": "FullColor",
+			"name": "Couleur Max",
+			"id": "2"
+		},
+		{
+			"logicalId": "MonochromeShade",
+			"name": "Monochrome Ombre",
+			"id": "3"
+		},
+		{
+			"logicalId": "MonochromeFade",
+			"name": "Monochrome Fondu",
+			"id": "4"
+		},
+		{
+			"logicalId": "MonoChromeLight",
+			"name": "Monochrome Léger",
+			"id": "5"
+		},
+		{
+			"logicalId": "MixedColorshade",
+			"name": "Couleurs ombre",
+			"id": "6"
+		},
+		{
+			"logicalId": "MixedColorFade",
+			"name": "Couleurs Fondu",
+			"id": "7"
+		},
+		{
+			"logicalId": "MixedColorLight",
+			"name": "Couleurs léger",
+			"id": "8"
+		},
+		{
+			"logicalId": "RedFade",
+			"name": "Fondu rouge",
+			"id": "9"
+		},
+		{
+			"logicalId": "GreenFade",
+			"name": "Fondu vert",
+			"id": "10"
+		},
+		{
+			"logicalId": "BlueFade",
+			"name": "Fondu bleu",
+			"id": "11"
+		},
+		{
+			"logicalId": "MonoChromeTransition",
+			"name": "Transition mono",
+			"id": "12"
+		},
+		{
+			"logicalId": "MixedColorTransition",
+			"name": "Transition multi",
+			"id": "13"
+		},
+		{
+			"logicalId": "SevenColorTransition",
+			"name": "Transition 7 couleurs",
+			"id": "14"
+		}
+	]
+}

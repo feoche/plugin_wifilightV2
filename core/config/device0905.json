@@ -1,0 +1,15 @@
+{	"type": "9", 
+	"subtype": "5",
+	"class": "TpLinkHS100",
+	"name": "TP-Link HS100 Plug BETA",
+	"canal": "1",
+	"monoSlider": "0",
+	"commands": [
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"nightLightOn",
+		"nightLightOff",
+		"LedState"
+	]
+}

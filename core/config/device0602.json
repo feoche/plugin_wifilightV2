@@ -1,0 +1,83 @@
+{	"type": "6", 
+	"subtype": "2",
+	"class": "YeeLightRGBW",
+	"name": "Ampoule RGBW",
+	"canal": "1",
+	"monoSlider": "1",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"nightLight",
+		"ColorGet",
+		"Color",
+		"onWhite",
+		"onColor",
+		"upIntensity",
+		"downIntensity",
+		"KelvinGet",
+		"Kelvin",
+		"warmKelvin",
+		"coolKelvin",
+		"midKelvin",
+		"upKelvin",
+		"downKelvin"
+	],
+	"Custom": [
+		{
+			"logicalId": "Scene01",
+			"name": "Extinction",
+			"parameters": "\"id\": 1 ,  \"method\":\"set_scene\",\"params\":[\"cf\",1, 2, \"8000, 2, 3500, 1 \"]"
+		},
+		{
+			"logicalId": "Scene02",
+			"name": "Allumage",
+			"parameters": "\"id\": 1 ,  \"method\":\"set_scene\",\"params\":[\"cf\",1, 1, \"8000, 2, 3500, 100 \"]"
+		},
+		{
+			"logicalId": "Scene03",
+			"name": "Coucher soleil 1",
+			"parameters": "\"id\":1, \"method\":\"start_cf\", \"params\":[3,1,\"50,1,16731392,1,360000,2,1700,10,540000,2,2700,100\"]"
+		},
+		{
+			"logicalId": "Scene04",
+			"name": "Coucher soleil 2",
+			"parameters": "\"id\": 1 , \"method\":\"start_cf\",\"params\":[6,2,\"300,1,16711680,50,4000,7,0,1,300,1,16776960,50,7000,7,0,1,300,1,16711935,50, 8000,7,0,1\"]"
+		},
+		{
+			"logicalId": "Scene05",
+			"name": "Lever soleil",
+			"parameters": "\"id\": 1 , \"method\":\"start_cf\",\"params\":[ 9,1,\"30000,2,2700,30,1000,7,0,1,30000,2,3150,40,3000,7,0,1,30000,2,3600,50,3000,7,0,1,30000,2,3750,60,3000,7,0,1,50000,2,4000,100\"]"
+		},
+		{
+			"logicalId": "Scene06",
+			"name": "PC mode",
+			"parameters": "\"id\":4,\"method\":\"set_scene\",\"params\":[\"ct\",2700,30]"
+		},
+		{
+			"logicalId": "Scene07",
+			"name": "Concentration",
+			"parameters": "\"id\":5,\"method\":\"set_scene\",\"params\":[\"ct\",6500,100]"
+		},
+		{
+			"logicalId": "Scene08",
+			"name": "Flash notify",
+			"parameters": "\"id\":6,\"method\":\"set_scene\",\"params\":[\"cf\",6,0,\"600,2,4000,70,400,2,4000,1\"]"
+		},
+		{
+			"logicalId": "Scene09",
+			"name": "Candle flicker",
+			"parameters": "\"id\":7,\"method\":\"set_scene\",\"params\":[\"cf\",0,0,\"800,2,2700,50,800,2,2700,30,1600,2,2700,80,800,2,2700,60,1200,2,2700,90,2400,2,2700,50,1200,2,2700,80,800,2,2700,60,400,2,2700,70\"]"
+		},
+		{
+			"logicalId": "Scene010",
+			"name": "Reading",
+			"parameters": "\"id\":8,\"method\":\"set_scene\",\"params\":[\"ct\",4000,100]"
+		}		
+	]
+}

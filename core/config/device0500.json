@@ -1,0 +1,7 @@
+{	"type": "5", 
+	"subtype": "0",
+	"class": "none",
+	"name": "Ampoules/strip MagicHome compatibles",
+	"canal": "1",
+	"instructions" : "Connecter le controlleur à l'application MagicHome ou similaire fournie par le constructeur en mode AP.<br/>Configurer le controlleur avec l'application mobile pour qu'il se connecte ensuite au wifi de de votre routeur. Vérifier que tout fonctionne avec l'application mobile du constructeur.<br/>A l'aide du routeur attribuer une adresse IP fixe au controlleur. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur."
+}

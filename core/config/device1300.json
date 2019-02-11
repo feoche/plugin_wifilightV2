@@ -1,0 +1,11 @@
+{	"type": "13", 
+	"subtype": "0",
+	"class": "none",
+	"name": "SPI LED controller Magic Home",
+	"canal": "1",
+	"mac" : "0",
+	"identifiant" : "0",
+	"nbLeds" : "1",
+	"colorOrder" : "1",
+	"instructions" : "Choisir cette option pour les bandeaux leds dont chaque led est adressable individuellement et compatibles avec l'application Magic Home. Vérifier que le périphérique fonctionne avec l'application mobile Magic Home.<br/> Connecter et configurer le périphérique (voir l'aide de l'appli mobile).<br/>Attribuer ensuite une adresse IP fixe au périphérique avec votre box Wifi. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur."
+}

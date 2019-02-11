@@ -1,0 +1,20 @@
+{	"type": "9", 
+	"subtype": "6",
+	"class": "TpLinkHS110",
+	"name": "TP-Link HS110 Plug BETA",
+	"canal": "1",
+	"monoSlider": "0",
+	"commands": [
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"nightLightOn",
+		"nightLightOff",
+		"LedState",
+		"VoltageGet",
+		"CurrentGet",
+		"PowerGet",
+		"ConsumptionGet",
+		"ClearConsumption"
+	]
+}

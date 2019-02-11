@@ -1,0 +1,7 @@
+{	"type": "3", 
+	"subtype": "0",
+	"class": "none",
+	"name": "Arilux controlleurs",
+	"canal": "1",
+	"instructions" : "Connecter le controlleur à l'application mobile fournie par le constructeur.<br/>Configurer le controlleur pour qu'il se connecte au wifi de votre routeur (AP mode). Vérifier que tout fonctionne avec l'application mobile du constructeur.<br/>A l'aide du routeur attribuer une adresse IP fixe au controlleur. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur."
+}

@@ -1,0 +1,62 @@
+{	"type": "6", 
+	"subtype": "5",
+	"class": "YeeLightMijia",
+	"name": "Mijia",
+	"canal": "1",
+	"monoSlider": "1",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"upIntensity",
+		"downIntensity",
+		"KelvinGet",
+		"Kelvin",
+		"warmKelvin",
+		"coolKelvin",
+		"midKelvin",
+		"upKelvin",
+		"downKelvin",
+		"DiscoProg"
+	],
+	"Custom": [
+		{
+			"logicalId": "Scene01",
+			"name": "Extinction",
+			"parameters": "\"id\": 1 ,  \"method\":\"set_scene\",\"params\":[\"cf\",1, 2, \"8000, 2, 3500, 1 \"]"
+		},
+		{
+			"logicalId": "Scene02",
+			"name": "Allumage",
+			"parameters": "\"id\": 1 ,  \"method\":\"set_scene\",\"params\":[\"cf\",1, 1, \"8000, 2, 3500, 100 \"]"
+		}
+	],
+ "nbDisco" : 4,
+	"disco": [
+		{
+			"logicalId": "nightReading",
+			"name": "Lecture nuit",
+			"id": "1"
+		},
+		{
+			"logicalId": "Reading",
+			"name": "Lecture",
+			"id": "2"
+		},
+		{
+			"logicalId": "concentration",
+			"name": "Concentration",
+			"id": "3"
+		},
+		{
+			"logicalId": "PC",
+			"name": "PC",
+			"id": "4"
+		}
+      ]
+}

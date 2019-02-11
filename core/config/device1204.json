@@ -1,0 +1,15 @@
+{	"type": "12", 
+	"subtype": "4",
+	"class": "Tuya_SW",
+	"name": "Smart plug 1",
+	"canal": "1",
+	"monoSlider": "2",
+	"mac" : "1",
+	"identifiant" : "1",
+	"Mincanal": "1",
+	"commands": [
+		"On",
+		"Off",
+		"SwOnOffGet"
+	]
+}

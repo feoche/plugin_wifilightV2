@@ -1,0 +1,37 @@
+{	"type": "10", 
+	"subtype": "0",
+	"class": "revogi",
+	"name": "Extel Meli",
+	"canal": "1",
+	"monoSlider": "0",
+	"instructions" : "Connecter le controlleur à l'application mobile fournie par le constructeur en mode AP.<br/>Configurer le controlleur avec l'application mobile pour qu'il se connecte ensuite au wifi de de votre routeur. Vérifier que tout fonctionne avec l'application mobile du constructeur.<br/>A l'aide du routeur attribuer une adresse IP fixe au controlleur. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur.",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+      	"IntensityGet",
+		"Intensity",
+		"upIntensity",
+		"downIntensity",
+		"upIntensityW1",
+		"downIntensityW1",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"nightLight",
+		"ColorGet",
+		"Color",
+		"DiscoProgGet",
+		"DiscoProg"
+	],
+	"nbDisco" : 1,
+	"disco": [
+		{
+			"logicalId": "Disco",
+			"name": "Disco",
+			"id": "1"
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{	"type": "12", 
+	"subtype": "0",
+	"class": "none",
+	"name": "Tuya/Jinvoo/eFamilyCloud compatible bulbs and plugs",
+	"canal": "4",
+	"mac" : "1",
+	"identifiant" : "1",
+	"instructions" : "Choisir cette option pour les ampoules et prises connectées compatibles avec les applications Tuya Smart live, Jinvoo Smart ou eFamilyCloud Apps, de très nombreuses lampes ou prises connectées sont de ce fait compatibles avec le plugin. Vérifier que le périphérique fonctionne avec l'application mobile.<br/> Connecter et configurer le périphérique (voir l'aide de l'appli mobile).<br/>Attribuer ensuite une adresse IP fixe au périphérique avec votre box Wifi. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur.<br/><br/> Le jeton et l'identifiant demandés sont obligatoires. Pour les obtenir : https://github.com/clach04/python-tuya/wiki. Le jeton correspond à la clé (key) et l'identifiant correspond à Device ID.<br/><br/>L'ampoule ou la prise ne doivent pas être connectées à une application mobile pour qu'elles puissent être commandée par Jeedom, il faut donc fermer toute application possiblement connectée à l'ampoule ou la prise."
+}

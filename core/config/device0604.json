@@ -1,0 +1,39 @@
+{	"type": "6", 
+	"subtype": "4",
+	"class": "YeeLightCeiling",
+	"name": "Plafonnier",
+	"canal": "1",
+	"monoSlider": "1",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"upIntensity",
+		"downIntensity",
+		"KelvinGet",
+		"Kelvin",
+		"warmKelvin",
+		"coolKelvin",
+		"midKelvin",
+		"upKelvin",
+		"downKelvin",
+		"moonLight"
+	],
+	"Custom": [
+		{
+			"logicalId": "Scene01",
+			"name": "Extinction",
+			"parameters": "\"id\": 1 ,  \"method\":\"set_scene\",\"params\":[\"cf\",1, 2, \"8000, 2, 3500, 1 \"]"
+		},
+		{
+			"logicalId": "Scene02",
+			"name": "Allumage",
+			"parameters": "\"id\": 1 ,  \"method\":\"set_scene\",\"params\":[\"cf\",1, 1, \"8000, 2, 3500, 100 \"]"
+		}
+	]
+}

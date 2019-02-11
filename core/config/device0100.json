@@ -1,0 +1,7 @@
+{	"type": "1", 
+	"subtype": "0",
+	"class": "none",
+	"name": "Mi.Light pont V3-5",
+	"canal": "4",
+	"instructions" : "Connecter le pont (bridge) à l'application mobile fournie par le constructeur pour l'associer aux ampoules ou strip leds et s'assurer de leur fonctionnement, noter le canal utilisé.<br/>A l'aide du routeur attribuer une adresse IP fixe au pont. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur."
+}

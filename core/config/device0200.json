@@ -1,0 +1,7 @@
+{	"type": "2", 
+	"subtype": "0",
+	"class": "none",
+	"name": "Mi.Light iBox1 iBox2",
+	"canal": "1",
+	"instructions" : "Connecter le pont (bridge) à l'application mobile fournie par le constructeur pour appairer les ampoules ou strip leds. Avant l'appairage (link) choisir obligatoirement, dans l'application mobile Mi.Light, l'image de télécommande identique à celle ci-contre (cliquer sur le bouton avec double flèche en haut à droite).<br/><br/>Dans l'appli Milight ne pas modifier le mot de passe d'accès à l'iBox et laisser la valeur par défaut : 0000.<br/><br/>Il est nécessaire de modifier la configuration de l'iBox, lire la documentation sur ce sujet.<br/><br/>Astuce : si vous n'avez pas de télécommande physique, sélectionner dans l'appli Mi.Light la télécommande universelle de l'ampoule RGBW CT lors de l'appairage et choisir cette même télécommande pour configurer wifilightV2.<br/><br/>S'assurer du fonctionnement, noter le canal (ou zone) utilisé. <br/>A l'aide du routeur attribuer une adresse IP fixe au pont. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur."
+}

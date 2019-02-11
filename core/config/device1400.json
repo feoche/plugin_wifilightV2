@@ -1,0 +1,13 @@
+{	"type": "14", 
+	"subtype": "0",
+	"class": "LedShopSPI_RGB",
+	"name": "SPI LED Shop SP108 Beta",
+	"canal": "1",
+	"monoSlider": "0",
+	"instructions" : "ATTENTION : version BETA pouvant être non fonctionnelle, seuls ON/OFF fonctionnent. Utiliser le forum pour tout renseignement. Choisir cette option pour les bandeaux leds dont chaque led est adressable individuellement SP108. Vérifier que le périphérique fonctionne avec l'application mobile.<br/> Connecter et configurer le périphérique (voir l'aide de l'appli mobile).<br/>Attribuer ensuite une adresse IP fixe au périphérique avec votre box Wifi. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur.",
+	"commands": [
+		"SwOnOffGet",
+		"On",
+		"Off"
+	]
+}

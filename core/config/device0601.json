@@ -1,0 +1,32 @@
+{	"type": "6", 
+	"subtype": "1",
+	"class": "YeeLightWhite",
+	"name": "Ampoule blanche",
+	"canal": "1",
+	"monoSlider": "0",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"nightLight",
+		"upIntensity",
+		"downIntensity"
+	],
+	"Custom": [
+		{
+			"logicalId": "Scene01",
+			"name": "Extinction",
+			"parameters": "\"id\": 1 ,  \"method\":\"set_scene\",\"params\":[\"cf\",1, 2, \"8000, 2, 3500, 1 \"]"
+		},
+		{
+			"logicalId": "Scene02",
+			"name": "Allumage",
+			"parameters": "\"id\": 1 ,  \"method\":\"set_scene\",\"params\":[\"cf\",1, 1, \"8000, 2, 3500, 100 \"]"
+		}
+	]
+}

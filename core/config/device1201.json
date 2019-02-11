@@ -1,0 +1,25 @@
+{	"type": "12", 
+	"subtype": "1",
+	"class": "TuyaBase",
+	"name": "Ampoule blanche",
+	"canal": "1",
+	"monoSlider": "1",
+	"mac" : "1",
+	"identifiant" : "1",
+	"Mincanal": "1",
+	"commands": [
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"KelvinGet",
+		"Kelvin",
+		"White",
+		"WhiteGet",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"warmKelvin",
+		"coolKelvin",
+		"midKelvin"
+	]
+}

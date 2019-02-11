@@ -1,0 +1,82 @@
+{	"type": "2", 
+	"subtype": "4",
+	"class": "mylightBridgeV6",
+	"name": "iBox1",
+	"canal": "1",
+	"monoSlider": "1",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"nightLight",
+		"ColorGet",
+		"Color",
+		"onWhite",
+		"onColor",
+		"DiscoProgGet",
+		"DiscoProg",
+		"DiscoSpeedGet",
+		"DiscoSpeed",
+		"fasterDisco",
+		"slowerDisco",
+		"slowestDisco",
+		"fastestDisco",
+		"middleDisco",
+		"upIntensity",
+		"downIntensity"
+	],
+	"nbDisco" : 9,
+	"disco": [
+		{
+			"logicalId": "rainbowSwirlDisco",
+			"name": "Disco arc-en-ciel",
+			"id": "1"
+		},
+		{
+			"logicalId": "whiteTwingle",
+			"name": "Disco blanc clign.",
+			"id": "2"
+		},
+		{
+			"logicalId": "fadeDisco",
+			"name": "Disco fondu",
+			"id": "3"
+		},
+		{
+			"logicalId": "rainbowJumpDisco",
+			"name": "Disco arc-en-ciel saut",
+			"id": "4"
+		},
+		{
+			"logicalId": "discoDisco",
+			"name": "disco Disco",
+			"id": "5"
+		},
+		{
+			"logicalId": "redAlert",
+			"name": "Disco rouge alerte",
+			"id": "6"
+		},
+		{
+			"logicalId": "greenAlert",
+			"name": "Disco vert alerte",
+			"id": "7"
+		},
+		{
+			"logicalId": "blueAlert",
+			"name": "Disco bleu alerte",
+			"id": "8"
+		},
+		{
+			"logicalId": "whiteAlert",
+			"name": "Disco blanc alerte",
+			"id": "9"
+		}		
+		
+	]
+}

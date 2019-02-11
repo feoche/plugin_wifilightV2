@@ -1,0 +1,27 @@
+{	"type": "2", 
+	"subtype": "2",
+	"class": "mylightWhiteV6",
+	"name": "Ampoule blanche Dual White CCT",
+	"canal": "4",
+	"monoSlider": "0",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"nightLight",
+		"KelvinGet",
+		"Kelvin",
+		"warmKelvin",
+		"coolKelvin",
+		"midKelvin",
+		"upKelvin",
+		"downKelvin",
+		"upIntensity",
+		"downIntensity"
+	]
+}

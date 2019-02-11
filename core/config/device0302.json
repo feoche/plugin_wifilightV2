@@ -1,0 +1,138 @@
+{	"type": "3", 
+	"subtype": "2",
+	"class": "AriluxRGBW",
+	"name": "Arilux RGBW AL-C02/C04/C10",
+	"canal": "1",
+	"monoSlider": "0",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"IntensityGet",
+		"Intensity",
+		"upIntensity",
+		"downIntensity",
+		"upIntensityW1",
+		"downIntensityW1",
+		"maxLight",
+		"minLight",
+		"midLight",
+		"nightLight",
+		"ColorGet",
+		"Color",
+		"onWhite",
+		"DiscoProgGet",
+		"DiscoProg",
+		"DiscoSpeedGet",
+		"DiscoSpeed",
+		"slowestDisco",
+		"fastestDisco",
+		"middleDisco"
+	],
+	"nbDisco" : 20,
+	"disco": [
+		{
+			"logicalId": "colorsGradualChange",
+			"name": "Dégradé couleurs",
+			"id": "1"
+		},
+		{
+			"logicalId": "redGradualChange",
+			"name": "Dégradé rouge",
+			"id": "2"
+		},
+		{
+			"logicalId": "greenGradualChange",
+			"name": "Dégradé vert",
+			"id": "3"
+		},
+		{
+			"logicalId": "blueGradualChange",
+			"name": "Dégradé bleu",
+			"id": "4"
+		},
+		{
+			"logicalId": "yellowGradualChange",
+			"name": "Dégradé jaune",
+			"id": "5"
+		},
+		{
+			"logicalId": "cyanGradualChange",
+			"name": "Dégradé cyan",
+			"id": "6"
+		},
+		{
+			"logicalId": "purpleGradualChange",
+			"name": "Dégradé pourpre",
+			"id": "7"
+		},
+		{
+			"logicalId": "whiteGradualChange",
+			"name": "Dégradé blanc",
+			"id": "8"
+		},
+		{
+			"logicalId": "redGreenGradualChange",
+			"name": "Dégradé rouge vert",
+			"id": "9"
+		},
+		{
+			"logicalId": "redBlueGradualChange",
+			"name": "Dégradé rouge bleu",
+			"id": "10"
+		},
+		{
+			"logicalId": "greenBlueGradualChange",
+			"name": "Dégradé vert bleu",
+			"id": "11"
+		},
+		{
+			"logicalId": "allColorsStrob",
+			"name": "Strobo couleurs",
+			"id": "12"
+		},
+		{
+			"logicalId": "redStrob",
+			"name": "Strobo rouge",
+			"id": "13"
+		},
+		{
+			"logicalId": "greenStrob",
+			"name": "Strobo vert",
+			"id": "14"
+		},
+		{
+			"logicalId": "blueStrob",
+			"name": "Strobo bleu",
+			"id": "15"
+		},
+		{
+			"logicalId": "yellowStrob",
+			"name": "Strobo jaune",
+			"id": "16"
+		},
+		{
+			"logicalId": "cyanStrob",
+			"name": "Strobo cyan",
+			"id": "17"
+		},
+		{
+			"logicalId": "purpleStrob",
+			"name": "Strobo pourpre",
+			"id": "18"
+		},
+		{
+			"logicalId": "whiteStrob",
+			"name": "Strobo blanc",
+			"id": "19"
+		},
+		{
+			"logicalId": "allJumpChange",
+			"name": "couleurs saut",
+			"id": "20"
+		}		
+		
+	]
+}

@@ -1,0 +1,19 @@
+{	"type": "9", 
+	"subtype": "2",
+	"class": "TpLinkLB110",
+	"name": "TP-Link LB110 Bulb",
+	"canal": "1",
+	"monoSlider": "0",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"upIntensity",
+		"downIntensity",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight"
+	]
+}

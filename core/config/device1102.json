@@ -1,0 +1,56 @@
+{	"type": "11", 
+	"subtype": "2",
+	"class": "XiaomiPhilipsCeiling",
+	"name": "Plafonnier Cuisine",
+	"canal": "1",
+	"monoSlider": "1",
+	"mac" : "1",
+	"commands": [
+		"WhiteGet",
+		"White",
+		"SwOnOffGet",
+		"On",
+		"Off",
+		"maxLight",
+		"minLight",
+		"midLight",	
+		"SwNightLightGet",
+		"nightLight",
+		"upIntensity",
+		"downIntensity",
+		"upIntensityInt",
+		"downIntensityInt",
+		"KelvinGet",
+		"Kelvin",
+		"warmKelvin",
+		"coolKelvin",
+		"midKelvin",
+      	"SwCCTAutoGet",
+      	"OnCCTAuto",
+        "OffCCTAuto",
+      	"nightLight",
+		"DiscoProgGet",
+		"DiscoProg",
+		"Timer",
+		"TimerGet",
+		"OffDelay"
+	],
+    "nbDisco" : 3,
+	"disco": [
+		{
+			"logicalId": "Mode1",
+			"name": "Mode 1",
+			"id": "1"
+		},
+		{
+			"logicalId": "Mode2",
+			"name": "Mode 2",
+			"id": "2"
+		},
+		{
+			"logicalId": "Mode3",
+			"name": "Mode 3",
+			"id": "3"
+		}
+      ]
+}

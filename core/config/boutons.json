@@ -1,0 +1,1363 @@
+{	"busy": false,
+	"commands": [
+		{
+			"name": "WhiteGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "WhiteGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Intensité Blanc",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+				"generic_type": "LIGHT_SLIDER"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "White",
+			"configuration": {
+				"updateCmdId": "WhiteGet",
+				"minValue": 0,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Moon light",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "moonLight",
+			"configuration": {
+				"minValue": 1,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "WhiteWarmGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "WhiteWarmGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Intensité Blanc Chaud",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+				"generic_type": "LIGHT_SLIDER"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "WhiteWarm",
+			"configuration": {
+				"updateCmdId": "WhiteWarmGet",
+				"minValue": 0,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "WhiteCoolGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "WhiteCoolGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Intensité Blanc Froid",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+				"generic_type": "LIGHT_SLIDER"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "WhiteCool",
+			"configuration": {
+				"updateCmdId": "WhiteCoolGet",
+				"minValue": 0,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Etat",
+			"type": "info",
+			"subtype": "binary",
+			"display": {
+				"generic_type": "LIGHT_STATE"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "SwOnOffGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "On",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_ON"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "On",
+			"configuration": {
+				"updateCmdId": "SwOnOffGet",
+				"parameters": 200,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Off",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_OFF"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "Off",
+			"configuration": {
+				"updateCmdId": "SwOnOffGet",
+				"parameters": 201,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Etat Prog",
+			"type": "info",
+			"subtype": "binary",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "SwPlayRunGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Play",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "Play",
+			"configuration": {
+				"updateCmdId": "SwPlayRunGet",
+				"parameters": 214,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Static",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "Static",
+			"configuration": {
+				"updateCmdId": "SwPlayRunGet",
+				"parameters": 213,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Eclaire Max",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "maxLight",
+			"configuration": {
+				"parameters": 202,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Eclaire Min",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "minLight",
+			"configuration": {
+				"parameters": 203,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Eclaire Moy",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "midLight",
+			"configuration": {
+				"parameters": 204,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Eclaire Nuit",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "nightLight",
+			"configuration": {
+				"parameters": 205,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "IntensityGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "IntensityGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Intensité",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "Intensity",
+			"configuration": {
+				"updateCmdId": "IntensityGet",
+				"minValue": 0,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Blanc",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "onWhite",
+			"configuration": {
+				"parameters": 206,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "GoCouleur",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "onColor",
+			"configuration": {
+				"parameters": 215,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Blanc F",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "onWhite2",
+			"configuration": {
+				"parameters": 207,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "ColorGet",
+			"type": "info",
+			"subtype": "string",
+			"display": {
+				"generic_type": "LIGHT_COLOR"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "ColorGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Couleur",
+			"type": "action",
+			"subtype": "color",
+			"display": {
+				"generic_type": "LIGHT_SET_COLOR"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "Color",
+			"configuration": {
+				"updateCmdId": "ColorGet",
+				"parameters": "#color#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "DiscoProgGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "DiscoProgGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Mode",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "DiscoProg",
+			"configuration": {
+				"updateCmdId": "DiscoProgGet",
+				"minValue": 1,
+				"maxValue": 9,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "DiscoSpeedGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "DiscoSpeedGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Disco Vit.",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "DiscoSpeed",
+			"configuration": {
+				"updateCmdId": "DiscoSpeedGet",
+				"minValue": 1,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Vit. min",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "slowestDisco",
+			"configuration": {
+				"parameters": 208,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Vit. max",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "fastestDisco",
+			"configuration": {
+				"parameters": 209,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Vit. moy",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "middleDisco",
+			"configuration": {
+				"parameters": 210,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Vit. +",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "fasterDisco",
+			"configuration": {
+				"parameters": 211,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Vit. -",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "slowerDisco",
+			"configuration": {
+				"parameters": 212,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Chaud",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "warmKelvin",
+			"configuration": {
+				"parameters": 250,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Froid",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "coolKelvin",
+			"configuration": {
+				"parameters": 251,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Naturel",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "midKelvin",
+			"configuration": {
+				"parameters": 252,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Temp +",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "upKelvin",
+			"configuration": {
+				"parameters": 253,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Temp -",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "downKelvin",
+			"configuration": {
+				"parameters": 254,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Intensité +",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "upIntensity",
+			"configuration": {
+				"parameters": 255,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Intensité -",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "downIntensity",
+			"configuration": {
+				"parameters": 256,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Int. Blanc 1 +",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "upIntensityW1",
+			"configuration": {
+				"parameters": 257,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Int. Blanc 1 -",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "downIntensityW1",
+			"configuration": {
+				"parameters": 258,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Int. Blanc 2 +",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "upIntensityW2",
+			"configuration": {
+				"parameters": 259,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Int. Blanc 2 -",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "downIntensityW2",
+			"configuration": {
+				"parameters": 260,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "KelvinGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "KelvinGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Temp",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "Kelvin",
+			"configuration": {
+				"updateCmdId": "KelvinGet",
+				"minValue": 0,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "SaturationGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "SaturationGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Saturation",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "Saturation",
+			"configuration": {
+				"updateCmdId": "SaturationGet",
+				"minValue": 1,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "ColorAmbGet",
+			"type": "info",
+			"subtype": "string",
+			"display": {
+				"generic_type": "LIGHT_COLOR"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "ColorAmbGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Couleur Amb",
+			"type": "action",
+			"subtype": "color",
+			"display": {
+				"generic_type": "LIGHT_SET_COLOR"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "ColorAmb",
+			"configuration": {
+				"updateCmdId": "ColorAmbGet",
+				"parameters": "#color#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "IntensityAmbGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "IntensityAmbGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Intensité Amb",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "IntensityAmb",
+			"configuration": {
+				"updateCmdId": "IntensityAmbGet",
+				"minValue": 0,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Intens Amb +",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "upIntensityAmb",
+			"configuration": {
+				"parameters": 265,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Intens Amb -",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "downIntensityAmb",
+			"configuration": {
+				"parameters": 266,
+				"level": 2
+			 }		
+		},
+      	{
+			"name": "EtatAmb",
+			"type": "info",
+			"subtype": "binary",
+			"display": {
+				"generic_type": "LIGHT_STATE"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "SwAmbGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "On Amb",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_ON"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OnAmb",
+			"configuration": {
+				"updateCmdId": "SwAmbGet",
+				"parameters": 304,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Off Amb",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_OFF"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OffAmb",
+			"configuration": {
+				"updateCmdId": "SwAmbGet",
+				"parameters": 305,
+				"level": 1
+			 }		
+		},
+      	{
+			"name": "Etat Care",
+			"type": "info",
+			"subtype": "binary",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "SwCareGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "On Care",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_ON"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OnCare",
+			"configuration": {
+				"updateCmdId": "SwCareGet",
+				"parameters": 302,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Off Care",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_OFF"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OffCare",
+			"configuration": {
+				"updateCmdId": "SwCareGet",
+				"parameters": 303,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Etat Care Not",
+			"type": "info",
+			"subtype": "binary",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "SwCareNotGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "On Care Not",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_ON"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OnCareNot",
+			"configuration": {
+				"updateCmdId": "SwCareNotGet",
+				"parameters": 306,
+				"level": 2
+			 }		
+		},
+		{
+			"name": "Off Care Not",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_OFF"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OffCareNot",
+			"configuration": {
+				"updateCmdId": "SwCareNotGet",
+				"parameters": 307,
+				"level": 2
+			 }		
+		},
+      	{
+			"name": "EtatCCTAuto",
+			"type": "info",
+			"subtype": "binary",
+			"display": {
+				"generic_type": "LIGHT_STATE"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "SwCCTAutoGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "On CCTAuto",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_ON"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OnCCTAuto",
+			"configuration": {
+				"updateCmdId": "SwCCTAutoGet",
+				"parameters": 300,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Off CCTAuto",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_OFF"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OffCCTAuto",
+			"configuration": {
+				"updateCmdId": "SwCCTAutoGet",
+				"parameters": 301,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "TimerGet",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "TimerGet",
+			"configuration": {
+				"level": 2
+			 }
+		},
+		{
+			"name": "Tempo",
+			"type": "action",
+			"subtype": "slider",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "Timer",
+			"configuration": {
+				"updateCmdId": "TimerGet",
+				"minValue": 0,
+				"maxValue": 100,
+				"parameters": "#slider#",
+				"level": 2
+			 }		
+		},
+		{
+			"name": "On Up Track",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OnUpTrack",
+			"configuration": {
+				"parameters": 350,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Off Up Track",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OffUpTrack",
+			"configuration": {
+				"parameters": 351,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "On Down Track",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OnDwTrack",
+			"configuration": {
+				"parameters": 352,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Off Down Track",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OffDwTrack",
+			"configuration": {
+				"parameters": 353,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "On Left Track",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OnLeTrack",
+			"configuration": {
+				"parameters": 354,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Off Left Track",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OffLeTrack",
+			"configuration": {
+				"parameters": 355,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "On Right Track",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OnRiTrack",
+			"configuration": {
+				"parameters": 356,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Off Right Track",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "OffRiTrack",
+			"configuration": {
+				"parameters": 357,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Disco +",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "upDisco",
+			"configuration": {
+				"parameters": 358,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Disco -",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "downDisco",
+			"configuration": {
+				"parameters": 359,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Power",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "W",
+			"logicalId": "PowerGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "Voltage",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "V",
+			"logicalId": "VoltageGet",
+			"configuration": {
+				"level": 2
+			 }
+		},
+		{
+			"name": "Current",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "mA",
+			"logicalId": "CurrentGet",
+			"configuration": {
+				"level": 2
+			 }
+		},
+		{
+			"name": "Consumption",
+			"type": "info",
+			"subtype": "numeric",
+			"display": {
+				"generic_type": "DONT"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "kWh",
+			"logicalId": "ConsumptionGet",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "LedState",
+			"type": "info",
+			"subtype": "binary",
+			"display": {
+				"generic_type": "LIGHT_STATE"
+			},
+			"isVisible": 0,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "LedState",
+			"configuration": {
+				"level": 1
+			 }
+		},
+		{
+			"name": "nightLightOn",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_ON"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "nightLightOn",
+			"configuration": {
+				"updateCmdId": "LedState",
+				"parameters": 309,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "nightLightOff",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+				"generic_type": "LIGHT_OFF"
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "nightLightOff",
+			"configuration": {
+				"updateCmdId": "LedState",
+				"parameters": 310,
+				"level": 1
+			 }		
+		},
+		{
+			"name": "Clear Consumption",
+			"type": "action",
+			"subtype": "other",
+			"display": {
+			},
+			"isVisible": 1,
+			"isHistorized": 0,
+			"unite": "",
+			"logicalId": "ClearConsumption",
+			"configuration": {
+				"parameters": 311,
+				"level": 1
+			 }		
+		}
+	]
+}

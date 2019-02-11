@@ -1,0 +1,8 @@
+{	"type": "11", 
+	"subtype": "0",
+	"class": "none",
+	"name": "Xiaomi Philips bulbs, lamps & strips",
+	"canal": "1",
+	"mac" : "1",
+	"instructions" : "Vérifier que le périphérique fonctionne avec l'application mobile.<br/> Connecter et configurer le périphérique (voir l'aide de l'appli mobile).<br/>Attribuer ensuite une adresse IP fixe au périphérique avec votre box Wifi. Vérifier à nouveau que tout fonctionne avec l'application mobile du constructeur.<br/><br/> Le jeton demandé est obligatoire, Pour l'obtenir, chercher sur le net : < token xiaomi >.<br/><br/> Il est possible de créer des commandes set_scene, start_cf, stop_cf. Pour cela, créer une nouvelle commande action/défaut et mettre la commande yeelight dans paramètres. S'inspirer de la commande Scene01 et utiliser la documentation Yeelight API."
+}

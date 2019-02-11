@@ -1,0 +1,18 @@
+{	"type": "12", 
+	"subtype": "9",
+	"class": "Tuya_SW_2C",
+	"name": "Smart plug 2 + conso",
+	"canal": "2",
+	"monoSlider": "2",
+	"mac" : "1",
+	"identifiant" : "1",
+	"Mincanal": "1",
+	"commands": [
+		"On",
+		"Off",
+		"SwOnOffGet",
+		"VoltageGet",
+		"PowerGet",
+		"CurrentGet"
+	]
+}
