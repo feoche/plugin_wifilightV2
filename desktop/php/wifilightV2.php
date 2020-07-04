@@ -1,7 +1,7 @@
 <?php
 /*
 *
-* Copyright (c) 2014 Bernard caron 
+* Copyright (c) 2014 Bernard caron
 * adapted from
 * Thomas Martinez's plugin for Karotz under Jeedom
 *
@@ -56,10 +56,10 @@ function sortByOption($a, $b) {
             </ul>
         </div>
     </div>
-    
+
 
     <div class="col-lg-10 col-md-9 col-sm-8 eqLogicThumbnailDisplay" style="border-left: solid 1px #EEE; padding-left: 25px;">
-	
+
 		<legend><i class="fa fa-cog"></i>  {{Gestion}}</legend>
 		 <div class="eqLogicThumbnailContainer">
 			 <div class="cursor eqLogicAction" data-action="add" style="background-color : #ffffff; height : 120px;margin-bottom : 10px;padding : 5px;border-radius: 2px;width : 160px;margin-left : 10px;" >
@@ -76,14 +76,14 @@ function sortByOption($a, $b) {
 			</div>
 
 		</div>
-	
-	
-	
-	
+
+
+
+
         <legend><i class="jeedom2 jeedom2-bright4"></i> {{Mes WifiLights}}</legend>
-          
-          
-         
+
+
+
 		</br>
 
         <?php
@@ -111,14 +111,14 @@ function sortByOption($a, $b) {
                 ?>
           </div>
         <?php } ?>
-    </div> 
+    </div>
  <div class="col-lg-10 col-md-9 col-sm-8 eqLogic" style="border-left: solid 1px #EEE; padding-left: 25px;display: none;">
 
  <a class="btn btn-success eqLogicAction pull-right" data-action="save"><i class="fa fa-check-circle"></i> {{Sauvegarder}}</a>
  <a class="btn btn-danger eqLogicAction pull-right" data-action="remove"><i class="fa fa-minus-circle"></i> {{Supprimer}}</a>
  <a class="btn btn-default eqLogicAction pull-right" data-action="configure"><i class="fa fa-cogs"></i> {{Configuration avancée}}</a>
  <a class="btn btn-default eqLogicAction pull-right" data-action="copy"><i class="fa fa-files-o"></i> {{Dupliquer}}</a>
- 
+
  <ul class="nav nav-tabs" role="tablist">
   <li role="presentation"><a href="#" class="eqLogicAction" aria-controls="home" role="tab" data-toggle="tab" data-action="returnToThumbnailDisplay"><i class="fa fa-arrow-circle-left"></i></a></li>
   <li role="presentation" class="active"><a href="#eqlogictab" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-tachometer"></i> {{Equipement}}</a></li>
@@ -128,7 +128,7 @@ function sortByOption($a, $b) {
 
 
 
-    
+
 <div class="tab-content" style="height:calc(100% - 50px);overflow:auto;overflow-x: hidden;">
 	<div role="tabpanel" class="tab-pane active" id="eqlogictab">
 	<br/>
@@ -149,7 +149,7 @@ function sortByOption($a, $b) {
                         <select id="sel_object" class="eqLogicAttr form-control" data-l1key="object_id">
                             <option value="">{{Aucun}}</option>
                             <?php
-                            foreach (object::all() as $object) {
+                            foreach (jeeObject::all() as $object) {
                                 echo '<option value="' . $object->getId() . '">' . $object->getName() . '</option>';
                             }
                             ?>
@@ -182,14 +182,14 @@ function sortByOption($a, $b) {
                     <div class="col-md-4">
                         <input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="addr" placeholder="{{Adresse IP}}"/>
                     </div>
-                </div>	
+                </div>
 
 				<div class="form-group">
                     <label class="col-md-4 control-label help" data-help="{{Indiquer la marque de l'ampoule ou de contrôleur afin de créer automatiquement les commandes correspondantes. En cas de modification, supprimer toutes les commandes et sauvegarder 2 fois.}}">{{Type d'ampoule ou de contrôleur:}}</label>
                     <div class="col-md-6">
 						<select id="" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="typeN">
 							<option value="">{{Aucun}}</option>
-								<?php							
+								<?php
 								$devices = wifilightV2::GetDevices();
 								//natcasesort($devices);
 								foreach ($devices as $Id => $device) {
@@ -219,13 +219,13 @@ function sortByOption($a, $b) {
 					</div>
 				</div>
 				<div class="form-group subtype" style="display:none;" >
-					<label class="col-lg-4 control-label help" data-help="{{Choisir l'ampoule.  En cas de modification, supprimer toutes les commandes et sauvegarder 2 fois.}}">{{Ampoule}}</label>  			
+					<label class="col-lg-4 control-label help" data-help="{{Choisir l'ampoule.  En cas de modification, supprimer toutes les commandes et sauvegarder 2 fois.}}">{{Ampoule}}</label>
 					<div class="col-lg-6">
-						<select class="eqLogicAttr form-control listModel" data-l1key="configuration" data-l2key="subtype">				
+						<select class="eqLogicAttr form-control listModel" data-l1key="configuration" data-l2key="subtype">
 						</select>
 						<center>
 							</br>
-							<img  data-original=".png" id="img_subtype" class="img-responsive" style="max-height : 200px;"  />		
+							<img  data-original=".png" id="img_subtype" class="img-responsive" style="max-height : 200px;"  />
 						</center>
 					</div>
 				</div>
@@ -253,7 +253,7 @@ function sortByOption($a, $b) {
 						<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="nbLeds" placeholder="{{1-600 - Défaut : 60}}"/>
 					</div>
 				</div>
-						
+
 
 					<div class="form-group colorOrder">
 						<label  class="col-lg-4 control-label help" data-help="{{Indiquer l'ordre des couleurs, si les couleurs sont mélangées}}">{{Ordre des couleurs :}}</label>
@@ -288,10 +288,10 @@ function sortByOption($a, $b) {
 						<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="incremV" placeholder="{{1 à 25 %  - Defaut:10}}"/>
 					</div>
 				</div>
-				<div id="controles"> 
+				<div id="controles">
 				   <div class="form-group">
-					  <label class="col-lg-4 control-label help" data-help="{{Permet de créer les commandes indispensables du périphérique ou l'ensemble des commandes (attention : création très lente).}}">{{Création des commandes :}}</label>  
-						<div class="col-lg-4">					  
+					  <label class="col-lg-4 control-label help" data-help="{{Permet de créer les commandes indispensables du périphérique ou l'ensemble des commandes (attention : création très lente).}}">{{Création des commandes :}}</label>
+						<div class="col-lg-4">
 						<select id="" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="controles">
 							 <option value="">{{Minimale}}</option>
 							 <option value="1">{{Etendue}}</option>
@@ -300,19 +300,19 @@ function sortByOption($a, $b) {
 						 </div>
 				   </div>
 				</div>
- 
+
 			   <div class="form-group">
-				  <label class="col-lg-4 control-label help" data-help="{{Permet de grouper plusieurs périphériques, une commande appliquée sur un périphérique le sera sur tous les périphériques du même groupe. Mettre 0 pour ne pas grouper.}}">{{Groupe :}}</label>  
+				  <label class="col-lg-4 control-label help" data-help="{{Permet de grouper plusieurs périphériques, une commande appliquée sur un périphérique le sera sur tous les périphériques du même groupe. Mettre 0 pour ne pas grouper.}}">{{Groupe :}}</label>
 					<div class="col-lg-4">
 						<input type="text" class="eqLogicAttr form-control" data-l1key="configuration" data-l2key="group" placeholder="{{0 à 100 - Defaut:0}}"/>
 					</div>
 			   </div>
 
-            </fieldset> 
+            </fieldset>
         </form>
       </div>
-	  
-	  	  
+
+
 	  <div id="infoNode" class="col-sm-4">
 
                     <fieldset>
@@ -322,22 +322,22 @@ function sortByOption($a, $b) {
 							{{Prérequis : }}</div>
 						<div id="div_instruction"></div>
 
-  
-                    </div> 	
-					</fieldset>					
 
-		</div>  
+                    </div>
+					</fieldset>
+
+		</div>
      </div>
-</div> 
-	  
-	  
+</div>
 
-<div role="tabpanel" class="tab-pane" id="commandtab">	  
-	  
-	  
-	  
-	  
-	  
+
+
+<div role="tabpanel" class="tab-pane" id="commandtab">
+
+
+
+
+
 
         <legend>Commandes</legend>
         <a class="btn btn-success btn-sm cmdAction help" data-action="add" data-help="{{Les commandes seront ajoutées automatiquement en cliquant sur Sauvegarder. Si une commande est supprimée, elle est automatiquement recréée en cliquant sur Sauvegarder. Décocher -Afficher- pour les commandes qui ne sont jamais utilisées. Il est possible de modifier le nom des commandes ajoutées automatiquement.}}"><i class="fa fa-plus-circle"></i>{{Ajouter une commande WifiLight}}</a><br/><br/>
